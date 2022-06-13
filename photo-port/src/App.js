@@ -2,12 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import About from './components/About/About';
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
     <div>
-      <About />
-
+      <Nav></Nav>
+      <main>
+        <About></About>
+      </main>
     </div>
   );
 }
