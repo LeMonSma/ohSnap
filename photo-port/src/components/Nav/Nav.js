@@ -21,10 +21,10 @@ function Nav() {
     }
 
     return (
-        <header>
+        <header className='flex-row'>
             <h2>
                 <a href="/">
-                    <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+                    <span className='' role="img" aria-label="camera"> 📸</span> Oh Snap!
                 </a>
             </h2>
             <nav>
